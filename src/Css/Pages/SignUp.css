@@ -1,0 +1,99 @@
+.signup{
+    width: 100%;
+    height: 100%;
+}
+.signupleft{
+    height: 100%;
+    background-color: #f2d184 !important;
+    display: inline-block;
+    float: left;
+    left: 0;
+    position: fixed;
+}
+.right{
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    float: right;
+    right: 0;
+}
+.signupheader{
+    position: absolute;
+}
+.rightinner{
+    border: none;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.inputs{
+   width: 90%;
+   height: 60px;
+   border: 1px solid whitesmoke; 
+   margin-top: 20px !important;
+   border-radius: 5px;
+   padding: 10px;
+}
+.submit{
+    width: 90%;
+    color: white;
+    background-color: green;
+    border: none;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.submit:disabled{
+    width: 90%;
+    color: white;
+    background-color: lightgray;
+    border: none;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.error{
+    border: 1px solid red;
+}
+
+.success{
+    border: 1px solid cyan;
+}
+
+:focus {
+    outline: 0;
+    outline-color: transparent;
+    outline-style: none;
+}
+
+.error_message{
+    color: red;
+    font-size: 15px;
+    width: 90%;
+    text-align: left;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

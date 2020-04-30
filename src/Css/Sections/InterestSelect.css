@@ -1,0 +1,79 @@
+.interestselect{
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 10%;
+    overflow: hidden;
+    overflow-y: scroll !important;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.theheader{
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-weight: 600;
+  color: black;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.subheader{
+  float: left;
+  width: 100%;
+  color: #6e6d7a;
+  text-align: left;
+  font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.interestoptions{
+  width: 30%;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+  vertical-align: top;
+  margin: 4px;
+}
+
+.selected{
+  border: 1px solid #3498db;
+}
+
+.done{
+  width: 92%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: blue;
+  border: none;
+}
+.interestimages{
+  width: 70px !important;
+  height: 70px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.interestinner{
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+}
+.done:disabled{
+  background-color: lightgray;
+}
+.continue,.counter{
+  display: inline-block;
+}
+.counter{
+  width: 100%;
+  text-align: right;
+}

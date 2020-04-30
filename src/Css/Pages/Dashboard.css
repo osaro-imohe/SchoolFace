@@ -1,0 +1,62 @@
+.dashboard{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+.mainbody{
+    height: 100%;
+    width: 100%;
+    float: right;
+    background-color: white;
+    position: relative;
+    transition: all 0.5s ease !important;
+}
+.expand{
+    width: 95% !important;
+}
+.loading {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  #error_message{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 1px solid whitesmoke;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 40px;
+    color:gray;
+    width: 80%;
+  }
+  
+  @media only screen and (min-width: 992px){
+    .mainbody{
+        height: 100%;
+        width: 80%;
+        float: right;
+        background-color: white;
+        position: relative;
+        transition: all 0.5s ease !important;   
+    }
+}

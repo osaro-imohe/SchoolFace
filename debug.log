@@ -1,0 +1,17 @@
+[0421/052226.765:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.770:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.771:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.771:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.771:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.771:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.772:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0421/052226.772:ERROR:exception_snapshot_win.cc(98)] thread ID 19056 not found in process
+[0429/200840.251:ERROR:file_io.cc(134)] WriteFile: There is not enough space on the disk. (0x70)
+[0429/200840.257:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0429/200840.258:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\IFY\AppData\Local\Google\Chrome\User Data\Crashpad\reports\6458698f-3f3d-422b-8f0f-869471a83ec4.dmp: The process cannot access the file because it is being used by another process. (0x20)
