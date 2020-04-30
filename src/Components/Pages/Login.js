@@ -74,7 +74,7 @@ class Login extends Component{
             case true:
                 return <div class="loader"></div>
             case false:
-                return <p>Login</p>
+                return <p>Log In</p>
         }
     }
     handleSubmit = (e) =>{

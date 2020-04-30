@@ -37,7 +37,6 @@ const NewPost = ({interests,submitPost}) =>{
                                         <span class="custom-option" data-value={interest} onClick={customSelect}>{interest}</span>
                                     )
                                 })}
-                                
                             </div>
                         </div>
                     </div>

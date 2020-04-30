@@ -120,7 +120,7 @@ class SignUp extends Component{
             case  true:
                 return <div class="loader"></div>
             case false:
-                return <p>Login</p>
+                return <p>Sign Up</p>
 
         }
     }

@@ -10,7 +10,8 @@ const initState = {
 const postReducer = (state = initState, action) =>{
     switch(action.type){
         case 'GET_POSTS':
-            if(action.payload.status === 'no interests'){
+            console.log(action.payload)
+            if(action.payload === 'no interests'){
                 return {...state,hasInterests : false, loading:false,error_message:'',}
             }else{
                 return {...state, loading:false,hasInterests : true,error_message:'',interests : action.payload.interests,}
@@ -18,7 +19,7 @@ const postReducer = (state = initState, action) =>{
         case 'START_LOADING':
             return{...state, loading : action.payload}
         case 'UPDATE_INTERESTS':
-            return {...state,loading:false,interest_loading:true,hasInterests : true,}
+            return {...state,loading:false,interest_loading:true,hasInterests : true,interests:action.payload.interests}
         case 'ERROR':
             return {...state, loading:false, error_message : `Something went wrong, please make sure you're connected to the internet.`,}
     }
